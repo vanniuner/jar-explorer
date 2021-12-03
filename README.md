@@ -14,7 +14,7 @@ and execute the following command:
 
     java -jar jarexplorer-0.7.jar
 
-## Command useage
+## Command Usage
     command:
 
     -jar jarexplorer-0.8-dev.jar YOUR_JAR_PATH SEARCH
