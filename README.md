@@ -14,6 +14,18 @@ and execute the following command:
 
     java -jar jarexplorer-0.7.jar
 
+## Comand useage
+    command:
+
+    -jar jarexplorer-0.8-dev.jar YOUR_JAR_PATH SEARCH
+
+    the output:
+
+    java -jar jarexplorer-0.8-dev-jar-with-dependencies.jar gateway-service.jar Application
+    org.springframework.web.context.support.WebApplicationObjectSupport → spring-web-5.2.4.RELEASE.jar
+    org.springframework.context.support.AbstractXmlApplicationContext → spring-context-5.2.4.RELEASE.jar
+    org.springframework.boot.context.config.DelegatingApplicationListener → spring-boot-2.2.5.RELEASE.jar
+
 ## Configuration
 
 Almost nothing to configure. There is one property file:
@@ -29,3 +41,4 @@ You can add other file extensions here, as long as the files themselves are in z
 ## Screen Shot
 
 ![jar-explorer.jpg](https://raw.githubusercontent.com/javalite/jar-explorer/master/src/main/resources/jar-explorer.jpg)
+
