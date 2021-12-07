@@ -20,8 +20,8 @@ public class CommandTest {
      */
     @Test
     public void testName() throws Exception {
-        String input = "/Users/van/goldkinn/own-project/goldkinn-gateway/gateway-service/target/gateway-service.jar";
-        String search = "IToken4GJ";
+        String input = "";
+        String search = "";
         String jarName = input.split("/")[input.split("/").length - 1];
         String jarPath = input.substring(0, input.length() - jarName.length());
         String destinationDir = jarPath + File.separator + "BOOT-INF/lib/";
