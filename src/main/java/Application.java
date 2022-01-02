@@ -39,7 +39,6 @@ public class Application {
         } catch (Exception e) {
             System.out.println("useage:\n\tjava -jar x.jar YOUR_JAR_PATH SEARCH");
             System.out.println("Error " + e.getMessage());
-            e.printStackTrace();
         }
         // ZipJar.deleteDir(new File(destinationDir));
     }
