@@ -7,7 +7,6 @@ import org.jarexplorer.ClassInformation;
 import org.jarexplorer.JarExplorer;
 
 /**
- * @author LZJ
  * @time 2021-12-03 08:44:12
  **/
 public class Application {
