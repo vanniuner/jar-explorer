@@ -86,7 +86,13 @@
             <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
+<dependency>
+    <groupId>cn.hutool</groupId>
+    <artifactId>hutool-all</artifactId>
+    <version>5.7.22</version>
+</dependency>
     </dependencies>
+
     <description>explore a single or multiple jars (indexed lookup), providing a number of views for resources: class - specific, shows all class information: interfaces, super class, methods, fields, as well as views for text, HTML, images.</description>
     <scm>
         <url>https://github.com/javalite/jar-explorer</url>
