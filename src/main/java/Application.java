@@ -11,6 +11,9 @@ import org.jarexplorer.JarExplorer;
  **/
 public class Application {
 
+    /**
+     * commit 1
+     */
     public static void main(String[] args) {
         try {
             String input = args[0];
